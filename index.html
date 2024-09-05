@@ -1,0 +1,394 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bootstrap-Lab</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.css" rel="stylesheet"/></head>
+   
+    <body>
+         <!-- nav-bar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a><img src="https://codescandy.com/geeks/assets/images/brand/logo/logo.svg" alt=""></a> <br>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-default" aria-controls="navbar-default" aria-expanded="true" aria-label="Toggle navigation">
+            <span class="icon-bar top-bar mt-0"></span>
+            <span class="icon-bar middle-bar"></span>
+            <span class="icon-bar bottom-bar"></span>
+            </button>
+            
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Browse
+                    </a>
+                  </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Landings
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Pages
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Accounts
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  ...
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+              </li>
+              <li><form class="d-flex" role="search">
+                <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+              </form></li>
+            </ul>
+            <form class="d-flex">
+                <button class="btn btn-outline me-2" type="button" style="color: black;">Sign in</button>
+                <button class="btn btn-primary me-2" type="button" style="color: white; background-color: rgb(116,79,254);">Sign Up</button>
+              </form>
+          </div>
+        </div>
+      </nav>
+    <!-- end nav -->
+
+     <!--Staer section-1 -->
+     <div class="container-xl d-flex justify-content-around" style="height:90vh; width:85vw;">
+
+        <!-- div-1 -->
+        <div class="d-flex flex-column justify-content-center" style="width:40vw;">
+        <h1 style="color: black font-weight-bold;">Become a Vanilla</h1>
+        <h1 style="color: black;">JavaScript Developer</h1>
+        <p>In this tutorial, we are going to learn about JavaScript (Vanilla JS) - for building incredible, poweful JavaScript applications.</p>
+        <p>4 Hours</p>
+        <p>12 Videos</p>
+        <p>10,234+ Enrolled</p>
+        <button type="button" class="btn btn-success p-2" style="width: 10vw;background-color:rgb(255,255,255);color: black">Watch Preview</button>
+        </div>
+         <!-- div-2 form -->
+         <div  class="d-flex justify-content-center align-items-center" style="width:40vw;">
+            <div class="d-flex-col p-4" style="border: rgb(173, 172, 172) solid; width:30vw;">
+            <!-- <form> -->
+                <legend style="color: black;">Create Free Account</legend>
+                <div class="d-grid gap-2 d-md-block" style="text-align: center;">
+                    <button class="btn" type="button" style="background-color: rgb(211, 211, 211); color: black;">Google</button>
+                    <button class="btn" type="button" style="background-color: rgb(211, 211, 211); color: black;">Twitter</button>
+                    <button class="btn" type="button"style="background-color: rgb(211, 211, 211); color: black;">Facebook</button>
+                  </div>
+                <hr>
+                <form>
+                    <div class="mb-3">
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="E-mail">
+                    </div>
+                    <div class="mb-3">
+                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary" style="width: 100%; background-color: rgb(116,79,254)">Submit</button>
+                    <hr>
+                    <p style="font-size: 12px;">By continuing you accept the <b>Terms of Use,Privacy Policy</b>, and <b>Data Policy</b></p>
+                  </form>
+            </div>
+        </div> 
+    </div>
+    <!-- End section-1 -->
+     <!-- section-2 -->
+     <div class="d-flex justify-content-center p-5" style="background-color: #e2e8f0; height: 125vh;">
+        <div class="d-flex-col justify-content-center align-items-center" style="width:85vw; text-align: center;">
+            <div class="d-flex-col justify-content-center align-items-center" style="height:22vh; text-align: center;">
+             <div style="height: 20vh;">
+             <h6 class="fs-5" style="color: blueviolet; letter-spacing: 2px">COURSE DESCREPTION</h6>
+             <h3 class="fw-bold fs-1">What will you learn?</h3>
+             <p class="fs-5" style="color:grey">Vanilla JS is a fast,lightweight,cross-platformframework for building incredible,<br>powerful JavaScript applications.</p>
+            </div>
+            </div>
+    <!--End Section 2-->
+    <!--Start Cards-->
+       <div class="container text-center " style="width: 80vw; height: 70vh;">
+        <div class="row row-cols-2">
+
+          <div class="col g-4">
+            <div class="card w-60">
+                <div class="card-body">
+                  <div style="text-align: left;">
+                  <div class="d-flex justify-content-around" style="width: 23vw;">
+                  <img style="width: 3vw; height: 5vh; background-color: blueviolet; border-radius: 50%;"  src="https://codescandy.com/geeks/assets/images/svg/feature-icon-2.svg"">
+                  <div>
+                  <h5 class="card-title ">Introduction to JavaScript</h5>
+                  <h6 class="card-subtitle mb-2 text-muted" style="font-size: 10px;">
+                    <div class="d-flex justify-content-between" style="width: 17vw;  ">
+                    <p style="color: black;">COURCES-1</p>
+                    <p>6 LESSONS</p>
+                    <p>1 HOUR 12MIN</p>
+                   </div>
+                  </h6>
+                  </div>
+                </div>
+                  <p class="card-text text-muted">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" style="color: blueviolet;">View Chapter Details +</a>
+                  </div>
+                </div>
+              </div>
+          </div>
+
+           <div class="col g-4">
+            <div class="card w-60">
+                <div class="card-body">
+               
+                  <div style="text-align: left;">
+                  <div class="d-flex justify-content-around" style="width: 23vw;">
+                  <img style="width: 3vw; height: 5vh;background-color: blueviolet; border-radius: 50%;"  src="https://codescandy.com/geeks/assets/images/svg/feature-icon-2.svg">
+                  <div>
+                  <h5 class="card-title ">JavaScript Begining</h5>
+                  <h6 class="card-subtitle mb-2 text-muted" style="font-size: 10px;">
+                    <div class="d-flex justify-content-between" style="width: 17vw;  ">
+                    <p style="color: black;">COURCES-2</p>
+                    <p>4 LESSONS</p>
+                    <p>23 MIN</p>
+                   </div>
+                  </h6>
+                  </div>
+                </div>
+                  <p class="card-text text-muted">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" style="color: blueviolet;">View Chapter Details +</a>
+                  </div>
+                </div>
+              </div>
+          </div>
+
+           <div class="col g-4">
+            <div class="card w-60">
+                <div class="card-body">
+               
+                  <div style="text-align: left;">
+                  <div class="d-flex justify-content-around" style="width: 23vw;">
+                  <img style="width: 3vw; height: 5vh; background-color: blueviolet; border-radius: 50%;" src="https://codescandy.com/geeks/assets/images/svg/feature-icon-2.svg"">
+                  <div>
+                  <h5 class="card-title ">Variables and Constants</h5>
+                  <h6 class="card-subtitle mb-2 text-muted" style="font-size: 10px;">
+                    <div class="d-flex justify-content-between" style="width: 17vw;  ">
+                    <p style="color: black;">COURCES-3</p>
+                    <p>8 LESSONS</p>
+                    <p>10 MIN</p>
+                   </div>
+                  </h6>
+                  </div>
+                </div>
+                  <p class="card-text text-muted">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" style="color: blueviolet;">View Chapter Details +</a>
+                  </div>
+                </div>
+              </div>
+          </div>
+
+           <div class="col g-4">
+            <div class="card w-60">
+                <div class="card-body">
+               
+                  <div style="text-align: left;">
+                  <div class="d-flex justify-content-around" style="width: 23vw;">
+                  <img style="width: 3vw; height: 5vh; background-color: blueviolet; border-radius: 50%;"  src="https://codescandy.com/geeks/assets/images/svg/feature-icon-2.svg">
+                  <div>
+                  <h5 class="card-title ">Types and Operators</h5>
+                  <h6 class="card-subtitle mb-2 text-muted" style="font-size: 10px;">
+                    <div class="d-flex justify-content-between" style="width: 17vw;  ">
+                    <p style="color: black;">COURCES-4</p>
+                    <p>10 LESSONS</p>
+                    <p>32 MIN</p>
+                   </div>
+                  </h6>
+                  </div>
+                </div>
+                  <p class="card-text text-muted">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" style="color: blueviolet;">View Chapter Details +</a>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+       </div>
+          <!-- End Cards  -->
+
+
+
+    <div class="container-xl d-flex justify-content-around" style="height:120vh; width:85vw;">
+    <div class="d-flex flex-column justify-content-center" style="width:40vw;">
+    <h6 style="color: blueviolet; font-size: 13px; text-align: left;">YOUR INSTRUCTOR</h6>
+    <h1 style="color: rgb(20, 20, 20); text-align: left;">Hi,I'm <span style="color: blueviolet;" >James Davis</span>,</h1>
+    <h1 style="color: rgb(20, 20, 20);text-align: left; padding-bottom: 10px;">I will be taking you <br>through lessons.</h1>
+    <p style="color: rgb(166, 163, 163);text-align: left;">Create beautiful website with this Geeks UI template. Get started building a site today.</p>
+    <hr>
+    <div class="d-flex" style="text-align: center; justify-content: space-around;">
+        <div class="d-flex-col">
+            <h3>45</h3>
+            <p>Lessons</p>
+        </div>
+
+        <div class="d-flex-col">
+            <h3>10,500+</h3>
+            <p>Students</p>
+        </div>
+
+        <div class="d-flex-col">
+            <h3>12+</h3>
+            <p>Learning Hours</p>
+        </div>
+    </div>
+    </div>
+
+      <div class="d-flex align-items-center">
+        <img style="width: 30vw;" src="https://codescandy.com/geeks/assets/images/instructor/instructor-img.png">
+      </div>
+</div>
+<!-- end section-3 -->
+
+
+
+
+<!-- Footer -->
+<footer class="text-center text-lg-start bg-light text-muted pt-3">
+
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <a><img src="https://codescandy.com/geeks/assets/images/brand/logo/logo.svg" alt=""></a> <br>
+
+            <p style="font-size: 10px;">
+                Geek is feature-rich components and beautifully Bootstrap UI Kit for developers, built with bootstrap responsive framework.
+            </p>
+            
+            <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+              <!-- Right -->
+                <div>
+                  <a href="" class="me-4 text-reset">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a href="" class="me-4 text-reset">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                  <a href="" class="me-4 text-reset">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </div>
+                <!-- Right -->
+              </section>
+            </div>
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4" style="color:  rgb(20, 20, 20);">
+                Company
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">About</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Pricing</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Blog</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Careers</a>
+              <p>
+                <a href="#!" class="text-reset">Contact</a>
+              </p>
+            </p>
+          </div>
+          <!-- Grid column -->
+       
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4" style="color:  rgb(20, 20, 20);">
+              Support
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Help and Support</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Become Instructor</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Get the app</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">FAQ's</a>
+            </p>
+            <p>
+                <a href="#!" class="text-reset">Tutorial</a>
+              </p>
+          </div>
+        
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4" style="color:  rgb(20, 20, 20);">Get in touch
+            </h6>
+            <p><i class="fas fa-home me-3"></i>339 McDermott Points Hettingerhaven, NV 15283 </p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              Email: support@geeksui.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i>Phone: (000) 123 456 789</p>
+        </div>
+    </div>
+
+        </div>
+
+     
+    </section>
+    
+
+
+  
+
+
+    <!-- Copyright -->
+    <div class="text-center p-6" style="background-color: rgba(0, 0, 0, 0.05); width: 100% ;">
+        © 2021 Geeks-UI, Inc. All Rights Reserved
+      <a class="text-reset fw-bold  p-2 g-col-6" href="#">Privacy Policy</a>
+   
+      <a class="text-reset fw-bold p-2 g-col-6" href="#">Cookie Notice</a>
+      <a class="text-reset fw-boldp-2 g-col-6" href="#">Do Not Sell My Personal Information</a>
+      <a class="text-reset fw-bold p-2 g-col-6" href="#">Terms of Use</a>
+
+    </div>
+</div>
+</div>
+    <!-- Copyright -->
+  </footer>
+
+  <!-- Footer -->
+
+
+
+</body>
+</html>
+
